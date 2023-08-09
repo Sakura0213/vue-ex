@@ -12,4 +12,7 @@ export default defineConfig({
       "@": fileURLToPath(new URL("./src", import.meta.url)),
     },
   },
+  build: {
+    outDir: "ts-super-web", // 生成输出的根目录。如果该目录存在，则会在生成之前将其删除。 默认文件夹名称为dist
+  },
 });
