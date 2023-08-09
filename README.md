@@ -12,17 +12,18 @@ npm run dev
 //安装yarn
 npm install -g yarn
 
-//安装axios
-yarn add axios
- 
-//安装mockjs（模拟接口）
-npm install mockjs
-
-//安装element-plus
-yarn add element-plus
-
 //安装 pnpm
 npm install pnpm -g
+
+//安装依赖
+//axios
+yarn add axios
+//mockjs（模拟接口）
+npm install mockjs
+//element-plus
+yarn add element-plus
+
+
 
 ```
 
