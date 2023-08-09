@@ -1,3 +1,5 @@
+``` shell
+
 //安装 nodejs
 ui:https://nodejs.org/en
 node -v
@@ -23,6 +25,7 @@ npm install mockjs
 //element-plus
 yarn add element-plus
 
+```
 
 
 
