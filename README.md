@@ -25,7 +25,9 @@ yarn add axios
 npm install mockjs
 //element-plus（ui库）
 yarn add element-plus
-//
+
+//若在package.json中已经引用好依赖后
+npm install ？？
 
 ```
 
