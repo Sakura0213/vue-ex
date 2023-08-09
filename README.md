@@ -9,6 +9,8 @@ npm -v
 npm install yarn -g
 //安装 pnpm
 npm install pnpm -g
+//安装vite，构建工具
+npm install vite -g
 
 //创建 vue 项目
 npm init vue@latest
