@@ -10,4 +10,6 @@ const num = ref(0);
 function countNum() {
   ++num.value;
 }
+
+
 </script>

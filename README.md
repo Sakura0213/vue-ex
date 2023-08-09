@@ -5,9 +5,8 @@ ui:https://nodejs.org/en
 node -v
 npm -v
 
-//安装yarn
-npm install -g yarn
-
+//安装yarn，-g表示全局安装
+npm install yarn -g
 //安装 pnpm
 npm install pnpm -g
 
@@ -18,12 +17,13 @@ npm install
 npm run dev
 
 //安装依赖
-//axios
+//axios（网络请求库）
 yarn add axios
 //mockjs（模拟接口）
 npm install mockjs
-//element-plus
+//element-plus（ui库）
 yarn add element-plus
+//
 
 ```
 
