@@ -1,22 +1,17 @@
-import { createApp } from "vue";
-import App from "./App.vue";
+import { createApp } from "vue";//引入 创建应用实例 方法
+import App from "./App.vue";//引入 根组件
 
-//引入 axios
-import axios from "@/plugins/axiosInstance.js";
-//引入 mock
-import "./mock/";
-//引入 element-plus 和 它的 css
-import ElementPlus from "element-plus";
-import "element-plus/dist/index.css";
+import axios from "./axios/axiosInstance.js";//引入 axios
+import "./mock/mockAllocation";//引入 mock
+import ElementPlus from "element-plus";//引入 element-plus 
+import "element-plus/dist/index.css";//引入 element-plus 的 css
 
 
-//createApp(App).mount('#app')  原始
-//对根组件 "./App.vue" 创建一个 app 实例
-const app = createApp(App);
+//createApp(App).mount('#app')  初始
 
+const app = createApp(App);//由根组件 App 创建一个实例
 
-//配置 axios 的全局引用
-app.config.globalProperties.$axios = axios;
+app.config.globalProperties.$axios = axios;//配置 axios 的全局引用
 //注入 element-plus
 app.use(ElementPlus);
 

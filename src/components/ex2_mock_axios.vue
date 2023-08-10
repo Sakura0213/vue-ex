@@ -11,7 +11,7 @@
 <script setup lang="ts">
 import { ref } from "vue";
 import BaseFooter from "./BaseFooter.vue";
-import API from "../plugins/axiosInstance";
+import API from "../axios/axiosInstance";
 import { ElMessage } from "element-plus";
 
 let testData = ref();

@@ -32,7 +32,7 @@
 <script setup>
 import { ref } from "vue";
 import BaseFooter from "./BaseFooter.vue";
-import API from "../plugins/axiosInstance";
+import API from "../axios/axiosInstance";
 
 const dialogVisible = ref(false);
 const url = ref(
