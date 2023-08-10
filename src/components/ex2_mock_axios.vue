@@ -20,7 +20,7 @@ let testData = ref();
 function getData() {
   testData.value = ""; //点击后重置为空
   API({
-    url: "/test",
+    url: "http://localhost:8080/test2",
     method: "get",
   }).then((res) => {
     if (res.data) {

@@ -5,7 +5,7 @@ import axios from "axios";
 
 //使用 axios 下面的 create([config]) 方法创建 axios 实例，其中 config 参数为 axios 最基本的配置信息。
 const API = axios.create({
-  baseURL: "http://localhost:8080", //请求后端数据的基本地址，自定义
+  //baseURL: "http://localhost:8080", //请求后端数据的基本地址，自定义
   timeout: 2000, //请求超时设置，单位ms
 });
 
