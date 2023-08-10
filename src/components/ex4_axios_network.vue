@@ -13,10 +13,10 @@
       <p>网址为：{{ url }}</p>
       <br />
       <p>状态码：{{ rData.status }}</p>
-      <p>squadName：{{ rData.data.squadName }}</p>
-      <p>homeTown：{{ rData.data.homeTown }}</p>
-      <p>formed：{{ rData.data.formed }}</p>
-      <p>secretBase：{{ rData.data.secretBase }}</p>
+      <p>squadName:{{ rData.data.squadName }}</p>
+      <p>homeTown:{{ rData.data.homeTown }}</p>
+      <p>formed:{{ rData.data.formed }}</p>
+      <p>secretBase:{{ rData.data.secretBase }}</p>
     </span>
     <template #footer>
       <span class="dialog-footer">

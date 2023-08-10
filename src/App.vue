@@ -1,16 +1,19 @@
+//根组件
+
 //使用
 <template>
-  <Ex1_count/>
-  <Ex2_mock_axios/>
-  <Ex3_login_rs/>
-  <Ex4_axios_network/>
-
+  <ex1 />
+  <ex2 />
+  <ex3 />
+  <ex4 />
+  <ex5 />
 </template>
 
 //引入
 <script setup>
-import Ex1_count from "./components/ex1_count.vue";
-import Ex2_mock_axios from "./components/ex2_mock_axios.vue";
-import Ex3_login_rs from "./components/ex3_login_rs.vue";
-import Ex4_axios_network from "./components/ex4_axios_network.vue";
+import ex1 from "./components/ex1_count.vue";
+import ex2 from "./components/ex2_mock_axios.vue";
+import ex3 from "./components/ex3_login_rs.vue";
+import ex4 from "./components/ex4_axios_network.vue";
+import ex5 from "./components/ex5_testVue.vue";
 </script>
