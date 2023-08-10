@@ -1,3 +1,5 @@
+//构建工具 vite 配置
+
 import { fileURLToPath, URL } from "node:url";
 
 import { defineConfig } from "vite";

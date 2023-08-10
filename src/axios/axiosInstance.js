@@ -11,3 +11,19 @@ const API = axios.create({
 
 //导出我们建立的axios实例模块，ES6 export用法
 export default API;
+
+/*
+导出后的使用方法：
+1.引用：import API from "../axios/axiosInstance";
+2.使用：API(ZZZZZ)
+
+相当于：
+import axios from "axios";
+const API = axios.create(XXXXX)
+API(ZZZZZ)
+
+相当于：
+import axios from "axios";
+axios.create(XXXXX)(ZZZZZ)//创建的实例直接使用方法
+
+*/

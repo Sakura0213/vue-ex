@@ -1,0 +1,39 @@
+<!-- 无构建步骤的 Vue 应用程序、全局构建版本 -->
+
+<!-- 
+当根组件没有设置 template 选项时，Vue 将自动使用容器的 innerHTML 作为模板。
+DOM 内模板通常用于无构建步骤的 Vue 应用程序。 
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>cdn_vue</title>
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+</head>
+
+<body>
+  <h1>使用cdn引入vue，创建无构建步骤的 Vue 应用程序</h1>
+  <div id="app">
+    <div>{{ message }}</div>
+  </div>
+
+</body>
+
+<script>
+  const { createApp, ref } = Vue
+
+  createApp({
+    setup() {
+      const message = ref('Hello vue!')
+      return {
+        message
+      }
+    }
+  }).mount('#app')
+</script>
+
+
+</html>

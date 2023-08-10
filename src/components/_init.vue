@@ -1,3 +1,5 @@
+//提供一个写 ex 的模板，仅此而已
+
 <template>
   <BaseFooter title="XXX"></BaseFooter>
 </template>
