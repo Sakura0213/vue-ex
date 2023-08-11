@@ -14,9 +14,11 @@ const testData1 = Mock.mock("http://localhost:8080/test1", "get", {
 
 const testData2 = Mock.mock("http://localhost:8080/test2", "get", {
   status: 200, //请求成功状态码
-  dataList: [1,2,2,2,2,2], //模拟的请求数据
+  dataList: [1, 2, 2, 2, 2, 2], //模拟的请求数据
 });
 
 //导出
-export default testData1;
-testData2;
+export default {
+  testData1,
+  testData2,
+};
