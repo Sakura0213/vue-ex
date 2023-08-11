@@ -12,7 +12,7 @@ npm install pnpm -g
 //安装vite，构建工具
 npm install vite -g
 //安装typescript（可在创建项目时手动选择）
- npm install typescript -g
+npm install typescript -g
 
 //创建 vue 项目
 //Vue官方的项目脚手架工具create-vue
