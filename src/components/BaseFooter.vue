@@ -3,7 +3,7 @@
 <template>
   <div class="background">
     <el-divider />
-    <h4>{{ title }}</h4>
+    <h4>{{title }}</h4>
     <el-divider />
   </div>
 </template>

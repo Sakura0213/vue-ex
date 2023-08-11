@@ -34,7 +34,10 @@ yarn add pinia
 npm i @vueuse/core
 
 //若在package.json中已经引用好依赖后
-//npm install ？？
+//在GitHub下载的项目首先得先npm i
+//npm i
+
+
 
 ```
 

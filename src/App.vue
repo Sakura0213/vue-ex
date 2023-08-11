@@ -1,19 +1,23 @@
-//根组件
-
-//使用
+//根组件 //使用
 <template>
-  <ex1 />
-  <ex2 />
-  <ex3 />
-  <ex4 />
-  <ex5 />
-  <ex6 />
-  <ex7 />
-  <ex8 />
-  <ex9 />
-  <ex10 />
-  <ex11 />
-  <ex12 />
+  <!-- 外边框 -->
+  <div class="ou">
+    <!-- 里边框 -->
+    <div class="in">
+      <ex1 />
+      <ex2 />
+      <ex3 />
+      <ex4 />
+      <ex5 />
+      <ex6 />
+      <ex7 />
+      <ex8 />
+      <ex9 />
+      <ex10 />
+      <ex11 />
+      <ex12 />
+    </div>
+  </div>
 </template>
 
 //引入
@@ -31,3 +35,15 @@ import ex7 from "./components/ex7_pinia.vue";
 // import ex11 from "./components/ex11_.vue";
 // import ex12 from "./components/ex12_.vue";
 </script>
+
+<style scoped>
+.ou {
+  width: 50%;
+  margin: 0 auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.in {
+  width: 98%;
+  margin: auto;
+}
+</style>
