@@ -1,5 +1,5 @@
 <template>
-  <BaseFooter title="5.测试VUe"></BaseFooter>
+  <BaseFooter title="5.测试VUe(无意义请忽略)"></BaseFooter>
   <el-button @click="modify">点击</el-button>
   <p>{{ str }}</p>
 </template>
