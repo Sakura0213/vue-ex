@@ -1,5 +1,5 @@
 <template>
-  <BaseFooter title="7.测试 Pinia（复刻ex1）"></BaseFooter>
+  <BaseFooter title="7.测试 Pinia (复刻ex1)"></BaseFooter>
 <el-button class="button" @click="countNum">{{ num }}</el-button>
   <h1>{{ componentName }}</h1>
 </template>
