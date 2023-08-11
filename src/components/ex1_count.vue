@@ -2,7 +2,7 @@
   <BaseFooter title="1. 点击按钮实现 count"></BaseFooter>
 
   <el-button class="button" @click="countNum">{{ num }}</el-button>
-  <h1>{{ componentName }}</h1>
+
 </template>
 
 <script setup>
