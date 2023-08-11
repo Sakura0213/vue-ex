@@ -11,10 +11,11 @@ npm install yarn -g
 npm install pnpm -g
 //安装vite，构建工具
 npm install vite -g
-//安装typescript
+//安装typescript（可在创建项目时手动选择）
  npm install typescript -g
 
 //创建 vue 项目
+//Vue官方的项目脚手架工具create-vue
 npm init vue@latest
 cd 创建的工程
 npm install
@@ -24,12 +25,16 @@ npm run dev
 //axios（网络请求库）
 yarn add axios
 //mockjs（模拟接口）
-npm install mockjs
+npm i mockjs
 //element-plus（ui库）
 yarn add element-plus
+//pinia（状态管理工具）（可在创建项目时手动选择）
+yarn add pinia
+//vueuse（vue工具库）
+npm i @vueuse/core
 
 //若在package.json中已经引用好依赖后
-npm install ？？
+//npm install ？？
 
 ```
 
