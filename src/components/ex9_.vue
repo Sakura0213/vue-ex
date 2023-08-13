@@ -1,5 +1,6 @@
+
 <template>
-  <BaseFooter title="9.XXX"></BaseFooter>
+  <BaseFooter title="XXX"></BaseFooter>
 </template>
 
 <script setup>
