@@ -43,21 +43,17 @@ function setStatus() {
 }
 
 function scrollToSection(sectionId) {
-  console.log("hanshu");
-  console.log(sectionId);
   window.location.hash = sectionId;
 }
 
 onMounted(() => {
+  //在Vue中，如果URL地址没有发生改变，刷新网页不会触发onMounted方法。看看后续有没有解决的方法
   const hash = window.location.hash;
   if (hash) {
     //如果url中已经存在锚点，则默认将三个框框显示出来并进行锚点跳转
-    console.log(hash);
     setStatus();
     const section = document.querySelector(hash);
-    console.log(section);
     if (section) {
-      console.log(section.id);
       scrollToSection(section.id);
     }
   }
