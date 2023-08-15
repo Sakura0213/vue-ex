@@ -12,7 +12,7 @@
     >
     <el-button @click="setStatus">{{ show }}</el-button>
 
-    <div v-if="status">
+    <div v-show="status">
       <div id="section1" class="section">Section 1</div>
       <div id="section2" class="section">Section 2</div>
       <div id="section3" class="section">Section 3</div>
@@ -42,16 +42,23 @@ function setStatus() {
   }
 }
 
-const scrollToSection = (sectionId) => {
+function scrollToSection(sectionId) {
+  console.log("hanshu");
+  console.log(sectionId);
   window.location.hash = sectionId;
-};
+}
 
 onMounted(() => {
   const hash = window.location.hash;
   if (hash) {
+    //如果url中已经存在锚点，则默认将三个框框显示出来并进行锚点跳转
+    console.log(hash);
+    setStatus();
     const section = document.querySelector(hash);
+    console.log(section);
     if (section) {
-      section.scrollIntoView();
+      console.log(section.id);
+      scrollToSection(section.id);
     }
   }
 });
