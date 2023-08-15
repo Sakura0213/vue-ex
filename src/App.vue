@@ -30,7 +30,7 @@ import ex5 from "./components/ex5_testVue.vue";
 import ex6 from "./components/ex6_global.vue";
 import ex7 from "./components/ex7_pinia.vue";
 import ex8 from "./components/ex8_.vue";
-// import ex9 from "./components/ex9_.vue";
+import ex9 from "./components/ex9_.vue";
 // import ex10 from "./components/ex10_.vue";
 // import ex11 from "./components/ex11_.vue";
 // import ex12 from "./components/ex12_.vue";
