@@ -38,7 +38,7 @@ import ex9 from "./components/ex9_.vue";
 
 <style scoped>
 .ou {
-  width: 50%;
+  width: 80%;
   margin: 0 auto;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
