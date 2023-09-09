@@ -1,5 +1,5 @@
 <template>
-  <BaseFooter title="8.页内跳转"></BaseFooter>
+  <BaseFooter title="8.测试跳转"></BaseFooter>
    <div>
     <h1>{{ heading }}</h1>
     <p>{{ content }}</p>
