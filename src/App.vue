@@ -16,6 +16,7 @@
       <ex10 />
       <ex11 />
       <ex12 />
+      <ex13 />
     </div>
   </div>
 </template>
@@ -32,8 +33,9 @@ import ex7 from "./components/ex7_pinia.vue";
 import ex8 from "./components/ex8_maodian.vue";
 import ex9 from "./components/ex9_yeneitiaozhuan.vue";
 import ex10 from "./components/ex10_ceshijindutiao.vue";
-import ex11 from "./components/ex11_elui-dialog.vue";
-import ex12 from "./components/ex12_.vue";
+import ex11 from "./components/ex11_svg.vue";
+import ex12 from "./components/ex12_kongtiao.vue";
+import ex13 from "./components/ex13_api.vue";
 </script>
 
 <style scoped>

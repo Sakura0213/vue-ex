@@ -32,6 +32,8 @@ yarn add element-plus
 yarn add pinia
 //vueuse（vue工具库）
 npm i @vueuse/core
+//vue-router（vue官方路由）
+npm install vue-router@4
 
 //若在package.json中已经引用好依赖后
 //在GitHub下载的项目首先得先npm i
