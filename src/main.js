@@ -9,15 +9,19 @@ import ElementPlus from "element-plus"; //引入 element-plus
 import "element-plus/dist/index.css"; //引入 element-plus 的 css
 import globalReferences from "./components/globalReferences.vue";//引用一个组件的模板，当作全局引用模板
 import { createPinia } from "pinia";//引入状态管理工具 pinia
+import router from './router'//路由router
 
 
 const pinia = createPinia();//创建一个pinia实例
+
+
 
 //createApp(App).mount('#app')  初始
 const app = createApp(App); //由根组件 App 创建一个应用实例
 
 app.use(ElementPlus); //注册插件，全局使用 element-plus
 app.use(pinia);//注册插件
+app.use(router)//路由router
 
 //应用实例会暴露一个 .config 对象允许我们配置一些应用级的选项
 // app.config.errorHandler = (err) => {
